@@ -108,6 +108,7 @@ function unique() {
   var tags = new _set2.default();
   var metaTypes = new _set2.default();
   var metaCategories = {};
+  var styles = [];
 
   return function (h) {
     switch (h.type) {
